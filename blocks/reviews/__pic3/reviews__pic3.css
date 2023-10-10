@@ -1,0 +1,8 @@
+.reviews__pic3 {
+    position: absolute;
+    top: 5vw;
+    z-index: -1 !important;
+    top: 0;
+    left: 0;
+    width: 50vw;
+}

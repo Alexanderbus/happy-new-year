@@ -1,0 +1,5 @@
+.footer__contain {
+    display: flex;
+    margin-left: 10vw;
+    gap: 4vw
+}

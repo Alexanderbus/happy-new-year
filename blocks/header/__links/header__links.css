@@ -1,0 +1,10 @@
+.header__links {
+    padding-top: 3.3vw;
+    margin-left: 2vw;
+    color: white;
+    display: flex;
+    gap: 3vw;
+    font-size: 1.8vw;
+    font-weight: 500;
+    line-height: normal;
+}

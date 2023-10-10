@@ -1,0 +1,51 @@
+.popup__submit-button {
+    background-color: rgba(0, 0, 0);
+    padding: 0;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.popup__submit-button:hover {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+@media screen and (max-width:767px) {
+    .popup__submit-button {
+        width: 74.375vw;
+        min-height: 14.375vw;
+        margin-top: 14.0624vw;
+        font-size: 4.375vw;
+        line-height: 5.3125vw;
+        margin-bottom: 7.8125vw;
+        margin-left: 6.875vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1279px) {
+    .popup__submit-button {
+        width: 27.98vw;
+        min-height: 3.906vw;
+        margin-top: 3.75vw;
+        font-size: 1.406vw;
+        line-height: 1.719vw;
+        margin-bottom: 2.891vw;
+        margin-left: 2.8125vw;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .popup__submit-button {
+        width: 358px;
+        min-height: 50px;
+        margin-top: 48px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 37px;
+        margin-left: 36px;
+    }
+}

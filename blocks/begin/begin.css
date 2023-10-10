@@ -1,0 +1,8 @@
+.begin {
+    position: relative;
+    color: white;
+    background-image:linear-gradient(180deg, rgb(185.93, 27.89, 27.89) 0%, rgba(192.31, 15.22, 15.22, 0) 54.69%), url('../../images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vw;
+}

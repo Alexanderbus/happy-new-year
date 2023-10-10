@@ -1,0 +1,10 @@
+.reviews__text {
+    position: absolute;
+    z-index: 3 !important;
+    margin: 0;
+    font-family: 'Montserrat-VariableFont_wght';
+    font-size: 1.8vw;
+    width: 40vw;  
+    top: 4.5vw;
+    left: 5vw; 
+}

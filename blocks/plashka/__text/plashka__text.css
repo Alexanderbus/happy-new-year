@@ -1,0 +1,13 @@
+.plashka__text {
+    font-family: 'monotypecorsiva';
+    margin: 0;
+    text-align: center;
+    width: 60vw;
+    margin-left: 30vw;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}

@@ -1,0 +1,5 @@
+.reviews__wing {
+    position: absolute;
+    width: 50vw;
+    z-index: -2;
+}

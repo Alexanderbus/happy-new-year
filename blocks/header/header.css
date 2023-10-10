@@ -1,0 +1,14 @@
+.header {
+    background-color: #B82423;
+    display: flex;
+    font-family: 'Montserrat-VariableFont_wght';
+}
+
+/* @media screen and (min-width: 768px) {
+    .header {
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+} */

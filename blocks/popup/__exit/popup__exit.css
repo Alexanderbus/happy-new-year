@@ -1,0 +1,41 @@
+.popup__exit {
+    border: 0;
+    position: absolute;
+    background-color: transparent;
+    background-image: url('../../../images/exit.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0;
+}
+
+.popup__exit:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width:767px) {
+    .popup__exit {
+        width: 6.25vw;
+        height: 6.25vw;
+        top: -11.25vw;
+        right: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+    .popup__exit {
+        width: 2.5vw;
+        height: 2.5vw;
+        top: -3.125vw;
+        right: -3.125vw;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .popup__exit {
+        width: 32px;
+        height: 32px;
+        top: -40px;
+        right: -40px;
+    }
+}

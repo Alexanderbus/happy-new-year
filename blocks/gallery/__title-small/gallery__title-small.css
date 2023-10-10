@@ -1,0 +1,12 @@
+.gallery__title-small {
+    color: #C61C32;
+    width: 30vw;
+    margin: 2vw;
+    margin-left: 5vw;
+    text-align: center;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5.5vw;
+    font-family: 'mont';
+}

@@ -1,0 +1,15 @@
+.popup__submit-button_disabled {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.popup__submit-button_disabled:hover {
+        background-color: rgba(0, 0, 0, 0);
+        cursor: default;
+        border: 1px solid #000000;
+        border-radius: 2px;
+        color: rgba(0, 0, 0, 1);
+}

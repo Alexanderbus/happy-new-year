@@ -1,0 +1,9 @@
+.footer__quoteText {
+    font-family: 'monotypecorsiva';
+    color: black;
+    width: 70vw;
+    padding-left: 15vw;
+    padding-top: 5vw;
+    font-size: 3vw;
+    text-align: center;
+}

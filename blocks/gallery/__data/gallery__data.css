@@ -1,0 +1,7 @@
+.gallery__data {
+    font-family: 'Montserrat-VariableFont_wght';
+    display: flex;
+    margin-top: 3vw;
+    margin-left: 30vw;
+    gap: 5vw;
+}

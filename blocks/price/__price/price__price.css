@@ -1,0 +1,10 @@
+.price__price {
+    border-radius: 2vw;
+    background: linear-gradient(300deg, #FFF -3.04%, #AE7A09 81.5%);
+    box-shadow: 0.2px 0.3px 1vw 0px #070709 inset, -0.2vw -0.2vw 1vw 0px rgba(255, 255, 255, 0.05) inset;
+    width: 20vw;
+    font-size: 3vw;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 3vw;
+}

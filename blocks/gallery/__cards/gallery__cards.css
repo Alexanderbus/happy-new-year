@@ -1,0 +1,6 @@
+.gallery__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 40vw);
+    margin-left: 5vw;
+    gap: 8vw
+}

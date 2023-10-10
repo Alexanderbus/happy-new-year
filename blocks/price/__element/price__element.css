@@ -1,0 +1,6 @@
+.price__element {
+    font-family: 'Montserrat-VariableFont_wght';
+    display: flex;
+    margin-left: 10vw;
+    gap: 5vw;
+}
