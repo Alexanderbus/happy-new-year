@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'mont';
+  src: url(./mont_heavydemo.woff) format('woff'),
+       url(./mont_heavydemo.woff2) format('woff2');
+}

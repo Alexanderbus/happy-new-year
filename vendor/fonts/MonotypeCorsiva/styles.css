@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'monotypecorsiva';
+  src: url(./monotypecorsiva.woff) format('woff'),
+       url(./monotypecorsiva.woff2) format('woff2');
+}
