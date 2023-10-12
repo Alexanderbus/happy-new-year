@@ -134,10 +134,6 @@ const buttonform = document.querySelectorAll('.gallery__button');
 const popup1 = document.querySelector('.popup')
 const popupForm = popup1.querySelector('.popup__form')
 
-function test() {
-    console.log('test')
-}
-
 const validation = new FormValidator(config, popupForm)
 
 async function formSubmit() {
@@ -161,7 +157,8 @@ async function sendData(data) {
 }
 
 const popup = new PopupWithForm(popup1, () => {
-    formSubmit()
+    // formSubmit()
+    alert('Мы скоро свяжемся с вами')
     popup.close();
 })
 
