@@ -130,7 +130,7 @@ const config = {
     input: '.popup__input',
 };
 
-const buttonform = document.querySelector('.gallery__button');
+const buttonform = document.querySelectorAll('.gallery__button');
 const popup1 = document.querySelector('.popup')
 const popupForm = popup1.querySelector('.popup__form')
 
@@ -165,9 +165,11 @@ const popup = new PopupWithForm(popup1, () => {
     popup.close();
 })
 
-buttonform.addEventListener('click', () => {
+buttonform.forEach((button) => {
+    button.addEventListener('click', () => {
     popup.open()
     validation.disableButton()
+})
 })
 
 function launchValidation(form) {
