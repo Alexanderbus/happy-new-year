@@ -11,3 +11,11 @@
     padding-top: 1vw;
     padding-bottom: 1vw;
 }
+
+@media screen and (max-width: 767px) {
+    .plashka__text { 
+        font-size: 4vw;
+        margin-left: 20vw;
+        width: 80vw;
+    }
+}

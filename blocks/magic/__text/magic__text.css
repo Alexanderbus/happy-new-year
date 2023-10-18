@@ -9,3 +9,11 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
 }
+
+@media screen and (max-width: 767px) {
+    .magic__text {
+        font-size: 5vw;
+        margin-left: 3vw;
+        width: 94vw;
+    }
+}

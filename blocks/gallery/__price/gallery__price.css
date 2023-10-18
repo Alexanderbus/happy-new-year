@@ -2,3 +2,9 @@
     margin-top: 17vw;
     font-size: 14vw;
 }
+
+@media screen and (max-width: 767px) {
+    .gallery__price {
+        margin-top: 3vw;
+    }
+}

@@ -2,3 +2,11 @@
     margin-left: 15vw;
     margin-right: 15vw;
 }
+
+
+@media screen and (max-width: 767px) {
+    .rules__paragraph {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}

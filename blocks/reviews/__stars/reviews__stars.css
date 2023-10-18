@@ -3,3 +3,9 @@
     top: 2vw;
     left: 18vw
 }
+
+@media screen and (max-width: 767px) {
+    .reviews__stars {   
+        top: -0.5vw;
+    }
+}

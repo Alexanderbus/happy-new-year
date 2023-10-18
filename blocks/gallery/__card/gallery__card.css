@@ -3,3 +3,9 @@
     border-radius: 10%;
     border: 2vw solid #AD7909;;
 }
+
+@media screen and (max-width: 767px) {
+    .gallery__card {
+        width: 80vw;
+    }
+}

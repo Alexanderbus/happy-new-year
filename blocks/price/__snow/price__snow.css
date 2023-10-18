@@ -1,3 +1,9 @@
 .price__snow {
     width: 10vw;
 }
+
+@media screen and (max-width: 767px) {
+    .cover {
+        width: 20vw;
+    }
+}

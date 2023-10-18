@@ -3,3 +3,9 @@
     font-size: 3vw;
     color: #C41129;
 }
+
+@media screen and (max-width: 767px) {
+    .delivery__header_v2 {
+        font-size: 4vw;
+    }
+}

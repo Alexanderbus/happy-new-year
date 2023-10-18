@@ -5,3 +5,9 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__text { 
+        font-size: 3vw;
+    }
+}

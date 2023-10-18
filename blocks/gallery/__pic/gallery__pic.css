@@ -1,3 +1,9 @@
 .gallery__pic {
     width: 10vw;
 }
+
+@media screen and (max-width: 767px) {
+    .gallery__pic {
+        width: 20vw;
+    }
+}

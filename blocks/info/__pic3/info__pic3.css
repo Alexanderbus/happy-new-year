@@ -4,3 +4,10 @@
     top: 0;
     width: 15vw;
 }
+
+@media screen and (max-width: 767px) {
+    .info__pic3 {
+        width: 30vw;
+        right: -8vw;
+    }
+}

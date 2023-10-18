@@ -6,3 +6,26 @@
     margin: 0;
     margin-bottom: 3vw;
 }
+
+@media screen and (max-width: 767px) {
+    .gallery__text {
+        width: 18vw;
+        margin-left: 3vw;
+        margin-right: 10vw;
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gallery__text_v2 {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gallery__text_v3 {
+        width: 10vw;
+        margin-right: 6vw;
+    }
+}
+

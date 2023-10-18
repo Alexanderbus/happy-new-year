@@ -8,3 +8,11 @@
     vertical-align: middle;
     margin-left: 3vw;
 }
+
+@media screen and (max-width: 767px) {
+    .price__price {
+        height: 5vw;
+        font-size: 3vw;
+        font-weight: 800;
+    }
+}

@@ -2,3 +2,9 @@
     border-radius: 50%;
     width: 15vw;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__pic { 
+        width: 30vw;
+    }
+}

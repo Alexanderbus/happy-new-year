@@ -4,3 +4,9 @@
     right: -5vw;
     top: 72vw;
 }
+
+@media screen and (max-width: 767px) {
+    .rules__pic {
+        top: 210vw;
+    }
+}

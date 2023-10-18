@@ -4,3 +4,9 @@
     font-family: 'Montserrat-VariableFont_wght';
     font-size: 2vw;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__smallTitle { 
+        font-size: 4.5vw;
+    }
+}

@@ -1,6 +1,13 @@
 .footer__quote {
     background-image: url('../../../images/Group.svg');
     height: 15vw;
-    width: 100vw;
-    
+    width: 100vw;    
 }
+
+@media screen and (max-width: 767px) {
+    .footer__quote { 
+        height: auto;
+        width: auto;
+    }
+}
+

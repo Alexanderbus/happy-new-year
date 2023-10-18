@@ -1,4 +1,5 @@
 .footer__quoteText {
+    margin: 0;
     font-family: 'monotypecorsiva';
     color: #C41129;
     width: 70vw;
@@ -6,4 +7,10 @@
     padding-top: 5vw;
     font-size: 4vw;
     text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__quoteText { 
+        font-size: 4.5vw;
+    }
 }

@@ -5,3 +5,10 @@
     margin-left: 30vw;
     gap: 5vw;
 }
+
+@media screen and (max-width: 767px) {
+    .gallery__data  {
+        width: 20vw;
+        margin-left: 15vw;
+    }
+}

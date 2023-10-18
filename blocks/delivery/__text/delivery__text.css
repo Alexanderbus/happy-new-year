@@ -5,3 +5,9 @@
     color: black;
     font-weight: normal;
 }
+
+@media screen and (max-width: 767px) {
+    .delivery__text {
+        font-size: 3vw;
+    }
+}

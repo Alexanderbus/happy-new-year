@@ -4,3 +4,11 @@
     margin-left: 5vw;
     gap: 8vw
 }
+
+
+@media screen and (max-width: 767px) {
+    .gallery__cards {
+        grid-template-columns: repeat(1, 80vw);
+        margin-left: 10vw;
+    }
+}
