@@ -1,14 +1,16 @@
 .gallery__cards {
     display: grid;
-    grid-template-columns: repeat(2, 40vw);
-    margin-left: 5vw;
-    gap: 8vw
+    grid-template-columns: repeat(3, 26vw);
+    margin-left: 4vw;
+    column-gap: 5vw;
+    row-gap: 1vw;
+
 }
 
 
 @media screen and (max-width: 767px) {
     .gallery__cards {
-        grid-template-columns: repeat(1, 80vw);
-        margin-left: 10vw;
+        grid-template-columns: repeat(2, 40vw);
+        margin-left: 7vw;
     }
 }
