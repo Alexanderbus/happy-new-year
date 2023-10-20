@@ -8,6 +8,7 @@
 @media screen and (max-width: 767px) {
     .info__pic3 {
         width: 30vw;
-        right: -8vw;
+        right: 0;
+        z-index: -1;
     }
 }
