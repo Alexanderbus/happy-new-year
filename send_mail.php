@@ -96,15 +96,15 @@ $altbody = "Имя: $name, телефон: $phone, Комент: $comment";
 header('Content-type: application/json');
 try {
   $mail->isSMTP();
-  $mail->Host = ""; // TODO: заполнить здесь
+  $mail->Host = "smtp.gmail.com"; // TODO: заполнить здесь
   $mail->SMTPAuth = true;
-  $mail->Username = ""; // * и здесь
-  $mail->Password = ""; // * и ещё здесь
-  $mail->SMTPSecure = "tls";
-  $mail->Port = 587;
+  $mail->Username = "adventproject1@gmail.com"; // * и здесь
+  $mail->Password = "jjriucrirsvtrjhu"; // * и ещё здесь
+  $mail->SMTPSecure = "ssl";
+  $mail->Port = 465;
 
   //Recipients
-  $mail->setFrom("orloff@moscow.mba");
+  $mail->setFrom("adventproject1@gmail.com");
   $mail->addAddress("alexandrobuslaev@gmail.com");
 
   $mail->CharSet = 'UTF-8';
