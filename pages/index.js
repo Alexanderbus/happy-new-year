@@ -130,52 +130,31 @@ const config = {
     input: '.popup__input',
 };
 
-const buttonform = document.querySelector('.gallery__button');
+const buttonform = document.querySelectorAll('.gallery__button');
 const popup1 = document.querySelector('.popup')
 const popupForm = popup1.querySelector('.popup__form')
 
 const validation = new FormValidator(config, popupForm)
 
-async function formSubmit() {
+function sendData() {
     const data = popup.getInputValues(); // получаем данные формы
-
-    try {
-        const response = await sendData(data); // отправляем данные на почту
-        const result = await response.json()
-
-        if(!result.success){
-            throw new Error({ message: `Сообщение ошибки: ${result.message}. Сообщение ошибки SMTP сервера: ${result.mailMessage}` })
-        }
-
-        alert(result.message || 'Данные отправлены'); // .. что данные отправлены
-        
-    } catch (error) {
-            alert(error.message); // если not OK - показываем сообщение ошибки
-            return
-        
-    }
-}
-
-async function sendData(data) {
-    return await fetch("send_mail.php", {
-        // отправляем в скрипт send_mail.php
-        method: "POST", // методом POST
-        body: JSON.stringify(data),
-        headers: {
-            'Content-Type': 'application/json;charset=utf-8'
-        }
-    },
-    );
+    const token = '6713390882:AAE1HB97oDNbxEnQvBouHhp9Q1HOMstvR4c'
+    const text = `Имя: ${data.nameAddPhoto}, номер: ${data.linkAddPhoto}, комент: ${data.comment}`
+    return fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=@adventCalendarApp&parse_mode=HTML&text=${text}`)
+        .then(() => { popup.close() })
+        .then(() => { alert('Мы с вами свяжемся!') })
+        .catch((error) => alert(`Ошибка: ${error}`))
 }
 
 const popup = new PopupWithForm(popup1, () => {
-    formSubmit()
-    popup.close();
+    sendData()
 })
 
-buttonform.addEventListener('click', () => {
-    popup.open()
-    validation.disableButton()
+buttonform.forEach((button) => {
+    button.addEventListener('click', () => {
+        popup.open()
+        validation.disableButton()
+    })
 })
 
 function launchValidation(form) {
@@ -185,4 +164,6 @@ function launchValidation(form) {
 launchValidation(validation)
 
 popup.setEventListeners()
+
+
 
