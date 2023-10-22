@@ -140,7 +140,7 @@ function sendData() {
     const data = popup.getInputValues(); // получаем данные формы
     const token = '6713390882:AAE1HB97oDNbxEnQvBouHhp9Q1HOMstvR4c'
     const text = `Имя: ${data.nameAddPhoto}, номер: ${data.linkAddPhoto}, комент: ${data.comment}`
-    return fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=@alexanderbuss&parse_mode=HTML&text=${text}`)
+    return fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=@adventCalendarApp&parse_mode=HTML&text=${text}`)
         .then(() => { popup.close() })
         .then(() => { alert('Мы с вами свяжемся!') })
         .catch((error) => alert(`Ошибка: ${error}`))

@@ -1,0 +1,7 @@
+@media screen and (max-width: 767px) {
+    .info__img_v3 {
+        width: 20vw;
+        height: 29vw;
+        margin-left: 2vw;
+    }
+}
