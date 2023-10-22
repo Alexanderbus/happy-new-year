@@ -134,10 +134,6 @@ const buttonform = document.querySelector('.gallery__button');
 const popup1 = document.querySelector('.popup')
 const popupForm = popup1.querySelector('.popup__form')
 
-function test() {
-    console.log('test')
-}
-
 const validation = new FormValidator(config, popupForm)
 
 async function formSubmit() {
